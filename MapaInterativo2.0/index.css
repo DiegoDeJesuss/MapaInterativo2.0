@@ -1,0 +1,66 @@
+:root {
+    --cor-norte: #307020; /* Verde musgo */
+    --cor-nordeste: #F08080; /* Vermelho claro */
+    --cor-centro-oeste: #FFD700; /* Dourado */
+    --cor-sudeste: #ADD8E6; /* Azul claro */
+    --cor-sul: #DDA0DD; /* Roxo claro */
+  }
+
+
+
+  .progress-bar[data-regiao="norte"] {
+    background-color: var(--cor-norte);
+    color: black;
+    font-weight: 700;
+  }
+  
+  .progress-bar[data-regiao="nordeste"] {
+    background-color: var(--cor-nordeste);
+    color: black;
+    font-weight: 700;
+  }
+  
+  .progress-bar[data-regiao="centro-oeste"] {
+    background-color: var(--cor-centro-oeste);
+    color: black;
+    font-weight: 700;
+  }
+  
+  .progress-bar[data-regiao="sudeste"] {
+    background-color: var(--cor-sudeste);
+    color: black;
+    font-weight: 700;
+  }
+  
+  .progress-bar[data-regiao="sul"] {
+    background-color: var(--cor-sul);
+    color: black;
+    font-weight: 700;
+  }
+  
+.progress {
+    height: 30px; /* Aqui você escolhe a altura que quiser */
+  }
+
+.progress{
+  font-size: large;
+}
+
+
+
+/* Efeito para passar o mouse por cima e aparecer um balãozinho com o nome do estado  */
+
+  #tooltip {
+    display: none; /* Inicialmente invisível */
+    position: absolute; /* Fixa a posição do tooltip na tela */
+    background-color: rgba(0, 0, 0, 0.7); /* Cor de fundo semi-transparente */
+    color: white; /* Cor do texto */
+    padding: 6px 10px; /* Espaçamento interno */
+    border-radius: 4px; /* Bordas arredondadas */
+    font-size: 14px; /* Tamanho da fonte */
+    pointer-events: none; /* Impede que o tooltip interfira nos eventos do mouse */
+    z-index: 1000; /* Garante que o tooltip fique acima de outros elementos */
+  }
+
+
+
